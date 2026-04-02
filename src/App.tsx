@@ -182,12 +182,7 @@ export default function App() {
         {/* Hero Section */}
         <section className="relative h-[80vh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <img 
-              src="https://picsum.photos/seed/thai-massage-hero/1920/1080" 
-              alt="Healing Environment" 
-              className="w-full h-full object-cover opacity-30"
-              referrerPolicy="no-referrer"
-            />
+            <img src="/images/image3.jpg" />
             <div className="absolute inset-0 bg-gradient-to-r from-brand-cream via-brand-cream/80 to-transparent" />
           </div>
           
@@ -248,12 +243,7 @@ export default function App() {
               
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
-                  <img 
-                    src="images/pic1.jpeg" 
-                    alt="Thai Massage Technique" 
-                    className="rounded-3xl w-full aspect-[3/4] object-cover card-shadow"
-                    referrerPolicy="no-referrer"
-                  />
+                  <img src="/images/image1.jpg" />
                   <img 
                     src="images/pic2.jpeg" 
                     alt="Stretching" 
@@ -262,12 +252,7 @@ export default function App() {
                   />
                 </div>
                 <div className="pt-12 space-y-4">
-                  <img 
-                    src="images/pic3.jpeg" 
-                    alt="Yoga Therapy" 
-                    className="rounded-3xl w-full aspect-video object-cover card-shadow"
-                    referrerPolicy="no-referrer"
-                  />
+                 <img src="/images/image2.jpg" />
                   <img 
                     src="images/pic1.jpeg" 
                     alt="Chiropractic Care" 
